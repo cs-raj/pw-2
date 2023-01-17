@@ -130,12 +130,16 @@ main{
 
 .projects-card{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* width: auto; */
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: auto;
+    grid-auto-rows: auto;
     /* grid-auto-flow: column; */
     /* justify-content: space-around; */
     margin: 10px;
     border: 1px solid black;
+    margin-left: auto;
+    margin-right: ;
 }
 
 .project-card{
@@ -180,7 +184,67 @@ main{
     font-size: 1.2rem;
 }
 
+/* Internship */
+.internship {
+    height: auto;
+    border: 1px solid red;
+}
+#internship-intro{
+    text-align: center;
+    border-bottom: 5px solid orange;
+    width: 100px;
+    margin: 5px auto;
+    color: purple;
+}
+.internship-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: auto;
+    grid-auto-rows: auto;
+    /* grid-auto-flow: column; */
+    /* justify-content: space-around; */
+    margin: 10px;
+    border: 1px solid black;
+    
+}
 
+.internship-card{
+    border: 5px solid green;
+    margin: 10px;
+    width: auto;
+}
+
+.internship-card-title{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    color: purple;
+}
+
+.internship-card-skills{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    color: orange;
+}
+
+.internship-card-duration{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    color: purple;
+}
+
+.internship-card-description{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    color: orange;
+}
 /* Footer Section of the Wwb Page */
 /* 
 footer{
