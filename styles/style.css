@@ -197,12 +197,9 @@ main{
     color: purple;
 }
 .internship-cards{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: auto;
-    grid-auto-rows: auto;
-    /* grid-auto-flow: column; */
-    /* justify-content: space-around; */
+    display: flex;
+    justify-content: space-around;
+    width: auto;
     margin: 10px;
     border: 1px solid black;
     
@@ -211,9 +208,16 @@ main{
 .internship-card{
     border: 5px solid green;
     margin: 10px;
-    width: auto;
+    width: 500px;
 }
 
+.internship-card-company{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    color: orange;
+}
 .internship-card-title{
     margin: 5px;
     padding: 5px;
