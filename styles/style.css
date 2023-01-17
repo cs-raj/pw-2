@@ -232,6 +232,8 @@ main{
     text-align: center;
     border: 1px solid black;
     color: orange;
+    display: flex;
+    justify-content: space-around;
 }
 
 .internship-card-duration{
@@ -248,6 +250,17 @@ main{
     text-align: center;
     border: 1px solid black;
     color: orange;
+    text-align: justify;
+}
+
+.internship-card-skill{
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid brown;
+    color: purple;
+    /* background-color: orange; */
+    /* border-radius: 30%; */
+    font-size: 1.2rem;
 }
 /* Footer Section of the Wwb Page */
 /* 
