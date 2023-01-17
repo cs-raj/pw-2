@@ -50,6 +50,17 @@ header{
 
 /* main Section starts here */
 
+main{
+    border: 1px solid green;
+}
+
+.about-intro{
+    text-align: center;
+    border-bottom: 5px solid orange;
+    width: 100px;
+    margin: 5px auto;
+    color: purple;
+}
 /* About Section */
 
 #about{
@@ -100,9 +111,47 @@ header{
     align-items: center;
 }
 
+/* About Section Ends */
 
+/* Project Section */
 
+.projects{
+    height: 600px;
+    border: 1px solid blue;
+}
 
+.projects-card{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.project-card{
+    margin: 10px;
+    border: 5px solid green;
+    width: 200px;
+    /* height: 500px; */
+}
+
+.project-card-title{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+}
+.project-card-skills{
+    border: 1px solid red;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.project-card-description{
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+    border: 1px solid green;
+}
 
 
 
