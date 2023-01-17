@@ -1,0 +1,22 @@
+:root {
+    background-color:  #003060;
+}
+
+header{
+    height: 200px;
+    background-color:  #003060;
+}
+main{
+    height: 500px;
+    /* background-color:  #0E86D4; */
+}
+footer{
+    height: 100px;
+    background-color:  #055C9D;
+}
+p{
+    color: white;
+}
+
+
+
