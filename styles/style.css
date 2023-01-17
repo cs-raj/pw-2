@@ -116,13 +116,24 @@ main{
 /* Project Section */
 
 .projects{
-    height: 600px;
+    height: auto;
     border: 1px solid blue;
 }
 
+#project-intro{
+    text-align: center;
+    border-bottom: 5px solid orange;
+    width: 100px;
+    margin: 5px auto;
+    color: purple;
+}
+
 .projects-card{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: auto;
+    /* grid-auto-flow: column; */
+    /* justify-content: space-around; */
     margin: 10px;
     border: 1px solid black;
 }
@@ -130,17 +141,21 @@ main{
 .project-card{
     margin: 10px;
     border: 5px solid green;
-    width: 200px;
+    width: auto;
     /* height: 500px; */
 }
 
 .project-card-title{
+    font-size: 1.5rem;
     margin: 5px;
     padding: 5px;
     text-align: center;
     border: 1px solid black;
+    color: purple;
 }
 .project-card-skills{
+    display: flex;
+    justify-content: space-around;
     border: 1px solid red;
     margin: 5px;
     text-align: center;
@@ -151,8 +166,19 @@ main{
     padding: 5px;
     text-align: justify;
     border: 1px solid green;
+    font-size: 1.3rem;
+    color: brown;
 }
 
+.project-card-skills-card{
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid brown;
+    color: purple;
+    background-color: orange;
+    /* border-radius: 30%; */
+    font-size: 1.2rem;
+}
 
 
 /* Footer Section of the Wwb Page */
