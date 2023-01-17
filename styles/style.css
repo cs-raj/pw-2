@@ -261,6 +261,24 @@ main{
     /* border-radius: 30%; */
     font-size: 1.2rem;
 }
+
+/* Academics */
+.academic
+{
+    height: auto;
+    border: 1px solid red;
+}
+#academic-intro{
+    text-align: center;
+    border-bottom: 5px solid orange;
+    width: 100px;
+    margin: 5px auto;
+    color: purple;
+}
+.academic-cards {
+    display: flex;
+    
+}
 /* Footer Section of the Wwb Page */
 /* 
 footer{
