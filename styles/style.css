@@ -166,12 +166,6 @@ main{
 .projects-card{
     display: flex;
     justify-content: space-around;
-    /* display: grid; */
-    /* width: auto; */
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* grid-gap: auto;
-    grid-auto-rows: auto; */
-    /* grid-auto-flow: column; */
     justify-content: space-around;
     margin: 10px;
     border: 1px solid black;
@@ -219,6 +213,21 @@ main{
     /* border-radius: 30%; */
     font-size: 1.2rem;
 }
+/* Responsiveness for Project Section */
+@media screen and (max-width:1050px){
+    .projects-card{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+    .project-card-description{
+        display: none;
+    }
+}
+
+
+
+
 
 /* Internship */
 .internship {
@@ -305,7 +314,7 @@ main{
         height: auto;
     }
     .internship-card-description{
-        visibility: hidden;
+        display: none;
     }
     .internship-card{
         width: auto;
