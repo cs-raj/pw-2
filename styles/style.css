@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 header{
-    border: 1px solid green;
+    border: 10px solid green;
     padding: 2px;
 }
 #logo-img{
-    border: 2px solid black;
+    border: 20px solid black;
     height: 90px;
     width: 150px;
     margin-right: auto;
@@ -14,62 +14,72 @@ header{
 
 .header-options{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    justify-content:center;
     align-items: center;
     border: 1px solid pink;
 }
 
 .header-options #logo-img{
-    margin-left: right;
+    /* margin-left: right; */
 }
 .header-menu{
     border: 1px solid red;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     /* width: 700px; */
     list-style: none;
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
-.header-menu-text{
+.header-menu-text {
     border: 1px solid black;
     margin: 5px;
+    margin-right: 30px;
     padding: 20px;
     font-size: 1.2rem;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 
 .header-menu-text a{
     text-decoration: none;
     color: orange;
+    /* padding: 20px; */
+    font-size: 1.2rem;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 /* Adding Responsiveness to the header */
 @media screen and (max-width:1050px) {
-    /* .header-options{
+    .header{
+        width: auto;
+    }
+    .header-options{
+        /* width: auto; */
         flex-direction: column;
-    } */
-    /* .header-menu{
+    }
+    .header-menu{
         flex-direction: column;
         width: auto;
         margin-left: auto;
         margin-right: auto;
+        align-items: center;
     }
     .header-menu-text{
         margin: 5px auto;
+        /* margin-right: 20px; */
     }
 
     #logo-img{
        margin-left: auto;
        margin-right: auto;
     }
-    .card {
-        width: 240px;
-        margin: 0.5%;
-    } */
 
 }
 
@@ -303,12 +313,14 @@ main{
     color: purple;
 }
 .academic-cards {
+
     justify-content: space-around;
     width: auto;
     margin: 10px;
     display: flex;
 }
 .academic-card{
+    font-size: 1.5rem;
     text-align: center;
     width: 400px;
     height: auto;
@@ -334,6 +346,23 @@ main{
     padding: 5px;
     border: 1px solid purple;
     color: purple;
+}
+
+/* Skill Section */
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+.skill{
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 10%;
+    width: auto;
 }
 /* Footer Section of the Wwb Page */
 /* 
