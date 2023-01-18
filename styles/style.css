@@ -357,6 +357,13 @@ main{
     border: 1px solid red;
     margin-top: 20px;
 }
+#skills-intro{
+    text-align: center;
+    border-bottom: 5px solid orange;
+    width: 100px;
+    margin: 5px auto;
+    color: purple;
+}
 .skill{
     margin: 20px;
     padding: 5px;
@@ -364,11 +371,15 @@ main{
     border-radius: 10%;
     width: auto;
 }
+
 /* Footer Section of the Wwb Page */
-/* 
+
 footer{
-    height: 400px;
+    height: auto;
     border: 1px solid black;
-
-
-} */
+}
+.footer-text{
+    margin:20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
