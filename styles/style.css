@@ -357,13 +357,6 @@ main{
     border: 1px solid red;
     margin-top: 20px;
 }
-#skills-intro{
-    text-align: center;
-    border-bottom: 5px solid orange;
-    width: 100px;
-    margin: 5px auto;
-    color: purple;
-}
 .skill{
     margin: 20px;
     padding: 5px;
@@ -371,10 +364,27 @@ main{
     border-radius: 10%;
     width: auto;
 }
+/* Responsiveness in Skill Section */
+@media screen and (max-width:1050px){
+    .skills{
+        /* border: none; */
+        flex-direction: column;
+        margin: 5px;
+        align-items: center;
+    }
+    .skill{
+        width: 120px;
+        margin: 5px;
+        text-align: center;
+    }
+    .footer-text{
+        font-size: 1rem;
+    }
+}
 
 /* Footer Section of the Wwb Page */
 
-footer{
+.footer{
     height: auto;
     border: 1px solid black;
 }
@@ -383,3 +393,13 @@ footer{
     font-size: 1.5rem;
     text-align: center;
 }
+/* Responsiveness in footer */
+@media screen and (max-width:1050px){
+    .footer{
+        border: none;
+    }
+    .footer-text{
+        font-size: 1rem;
+    }
+}
+
