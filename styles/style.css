@@ -313,7 +313,6 @@ main{
     color: purple;
 }
 .academic-cards {
-
     justify-content: space-around;
     width: auto;
     margin: 10px;
@@ -346,6 +345,19 @@ main{
     padding: 5px;
     border: 1px solid purple;
     color: purple;
+}
+/* Responsiveness in academic section */
+@media screen and (max-width:1050px){
+    .academic-cards{
+        flex-direction: column;
+        margin: 10px;
+        align-items: center;
+    }
+
+    .academic-card{
+        margin: 20px;
+        width: 300px;
+    }
 }
 
 /* Skill Section */
