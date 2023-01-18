@@ -242,7 +242,7 @@ main{
 }
 
 .internship-card{
-    border: 5px solid orange;
+    border: 5px solid green;
     margin: 10px;
     width: 500px;
 }
@@ -297,6 +297,32 @@ main{
     /* background-color: orange; */
     /* border-radius: 30%; */
     font-size: 1.2rem;
+}
+/* Responsiveness for internship part */
+@media screen and (max-width:1050px){
+    .internship-cards{
+        flex-direction: column;
+        height: auto;
+    }
+    .internship-card-description{
+        visibility: hidden;
+    }
+    .internship-card{
+        width: auto;
+        height: auto;
+    }
+    .internship-card-company{
+        font-size: 1.5rem;
+    }
+    .internship-card-title{
+        font-size: 1.4rem;
+    }
+    .internship-card-duration{
+        font-size: 1.3rem;
+    }
+    .internship-card-skills{
+        font-size: 0.9rem;
+    }
 }
 
 /* Academics */
