@@ -22,10 +22,10 @@ header {
 
 .header-options {
     display: flex;
-    justify-content: center;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     border: 1px solid pink;
+    margin-right: 0;
 }
 
 .header-options #logo-img {
@@ -38,15 +38,19 @@ header {
     justify-content: space-around;
     list-style: none;
     align-items: center;
-    margin: 10px auto
+    margin: 10px auto;
+    margin-right: 0;
 }
 
 .header-menu-text {
     border: 1px solid black;
-    /* margin: 5px; */
+    margin: 5px;
+    width: 90px;
+    text-align: center;
     /* margin-right: 30px; */
     padding: 5px;
     font-size: 1.2rem;
+    margin-right: 35px;
     /* margin-left: auto; */
     /* margin-right: auto; */
 }
@@ -286,6 +290,7 @@ main {
     height: auto;
     border: 1px solid red;
     display: flex;
+    flex-direction: column;
 }
 
 #internship-intro {
