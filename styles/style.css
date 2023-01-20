@@ -424,8 +424,9 @@ main {
 
 /* Academics */
 .academic {
+    background: linear-gradient(lightskyblue,white);
     height: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #academic-intro {
@@ -449,6 +450,7 @@ main {
     width: 400px;
     height: auto;
     border: 1px solid purple;
+    border-radius: 2%;
 }
 
 .academic-card-year {
@@ -492,8 +494,9 @@ main {
     display: flex;
     justify-content: space-around;
     height: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 20px;
+    background-color: lightblue;
 }
 
 .skill {
@@ -502,6 +505,7 @@ main {
     border: 1px solid green;
     border-radius: 10%;
     width: auto;
+    font-weight: bold;
 }
 
 /* Responsiveness in Skill Section */
@@ -527,6 +531,7 @@ main {
 /* Footer Section of the Wwb Page */
 
 footer {
+    background: linear-gradient(white, lightskyblue);
     height: auto;
     border: 1px solid black;
 }
