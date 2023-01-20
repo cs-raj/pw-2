@@ -16,6 +16,10 @@ header, .projects, .internship{
 .header-options, .header-menu, #about,.projects-card, .project-card-skills, .internship, .internship-cards, .internship-card-skills , .academic-cards, .skills , .contacts  {
     display: flex;
 }
+
+.header-menu, .projects-card, .project-card-skills , .internship-cards, .internship-card-skills, .academic-cards , .skills , .contacts  {
+    justify-content: space-around;
+}
 header {
     padding: 2px;
     margin: 20px;
@@ -36,7 +40,6 @@ header {
 }
 
 .header-menu {
-    justify-content: space-around;
     list-style: none;
     align-items: center;
     margin: 10px auto;
@@ -105,7 +108,6 @@ header {
         margin-right: auto;
         width: 480px;
     }
-
 }
 
 .about-intro {
@@ -192,7 +194,6 @@ header {
 }
 
 .projects-card {
-    justify-content: space-around;
     margin: 10px;
     margin-left: auto;
 }
@@ -214,7 +215,6 @@ header {
 }
 
 .project-card-skills {
-    justify-content: space-around;
     border: 1px solid red;
     margin: 5px;
     text-align: center;
@@ -277,7 +277,6 @@ header {
 }
 
 .internship-cards {
-    justify-content: space-around;
     width: auto;
     margin: 10px;
 }
@@ -311,7 +310,6 @@ header {
     text-align: center;
     border: 1px solid black;
     color: orange;
-    justify-content: space-around;
 }
 
 .internship-card-duration {
@@ -398,7 +396,6 @@ header {
 }
 
 .academic-cards {
-    justify-content: space-around;
     width: auto;
     margin: 10px;
 }
@@ -458,7 +455,6 @@ header {
 /* Skill Section */
 
 .skills {
-    justify-content: space-around;
     height: auto;
     margin-top: 20px;
     background-color: lightblue;
@@ -476,7 +472,6 @@ header {
 /* Responsiveness in Skill Section */
 @media screen and (max-width:1050px) {
     .skills {
-        /* border: none; */
         flex-direction: column;
         margin: 5px;
         align-items: center;
@@ -492,9 +487,7 @@ header {
         font-size: 1rem;
     }
 }
-
 /* Footer Section of the Wwb Page */
-
 footer {
     margin-top: 20px;
     height: auto;
@@ -505,10 +498,6 @@ footer {
     margin: 20px;
     font-size: 1.5rem;
     text-align: center;
-}
-
-.contacts{
-    justify-content: space-around;
 }
 .contact-type{
     text-align: center;
@@ -533,12 +522,10 @@ footer {
     }
     footer {
         width: 480px;
-        /* border: none; */
         margin: 2px auto;
     }
 
     .footer-text {
-        /* width: 480px; */
         font-size: 1rem;
         text-align: center;
         margin: 20px auto;
