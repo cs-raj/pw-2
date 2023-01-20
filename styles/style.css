@@ -104,9 +104,6 @@ header {
 
 /* main Section starts here */
 
-main {
-    /* border: 1px solid green; */
-}
 @media screen and (max-width:1050px) {
     main{
         margin-left: auto;
@@ -247,7 +244,7 @@ main {
     margin: 5px;
     padding: 5px;
     text-align: justify;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     font-size: 1.3rem;
     color: brown;
 }
@@ -320,7 +317,7 @@ main {
     border: 1px solid purple;
     border-radius: 2%;
     margin: 10px;
-    width: 500px;
+    width: 400px;
 }
 
 .internship-card-company {
@@ -361,7 +358,7 @@ main {
     margin: 5px;
     padding: 5px;
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color: purple;
     text-align: justify;
 }
@@ -376,6 +373,12 @@ main {
     font-size: 1.2rem;
 }
 
+.internship-card:hover{
+    border: 1px solid purple;
+    border-radius: 2%;
+    margin: 10px;
+    width: 480px;
+}
 /* Responsiveness for internship part */
 @media screen and (max-width:1050px) {
     .internship {
@@ -475,6 +478,14 @@ main {
     color: purple;
 }
 
+.academic-card:hover{
+    font-size: 1.7rem;
+    text-align: center;
+    width: 480px;
+    height: auto;
+    border: 1px solid purple;
+    border-radius: 2%;
+}
 /* Responsiveness in academic section */
 @media screen and (max-width:1050px) {
     .academic-cards {
@@ -532,9 +543,10 @@ main {
 /* Footer Section of the Wwb Page */
 
 footer {
+    margin-top: 20px;
     background: linear-gradient(white, lightskyblue);
     height: auto;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 .footer-text {
@@ -553,20 +565,20 @@ footer {
     text-align: center;
     width: 200px;
     margin: 10px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .contact-type-icon{
     margin: 10px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .contact-type-detail{
     margin: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .material-symbols-outlined{
     margin: 10px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 /* Responsiveness in footer */
 @media screen and (max-width:1050px) {
