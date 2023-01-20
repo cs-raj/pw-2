@@ -105,7 +105,7 @@ header {
 /* main Section starts here */
 
 main {
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 @media screen and (max-width:1050px) {
     main{
@@ -317,7 +317,8 @@ main {
 }
 
 .internship-card {
-    border: 5px solid green;
+    border: 1px solid purple;
+    border-radius: 2%;
     margin: 10px;
     width: 500px;
 }
@@ -533,7 +534,7 @@ main {
 footer {
     background: linear-gradient(white, lightskyblue);
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .footer-text {
@@ -543,7 +544,7 @@ footer {
 }
 
 .contacts{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     /* height: 200px; */
     display: flex;
     justify-content: space-around;
